@@ -24,7 +24,7 @@ $(function()
 		artist: "BOZITT",
 		name: "Những gì anh nói",
 		url: "Musics/Nhung_gi_anh_noi.mp3",
-		picture: "https://i1.sndcdn.com/artworks-000666585649-5a81y5-t500x500.jpg"
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
 	}];
 	
 	function shuffle(a) {
