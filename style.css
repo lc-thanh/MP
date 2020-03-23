@@ -32,8 +32,8 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
     z-index: 1;
 }
 
