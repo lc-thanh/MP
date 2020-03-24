@@ -30,7 +30,13 @@ $(function()
 		artist: "Test",
 		name: "Nếu Anh Đi",
 		url: "Musics/NeuAnhDi.mp3",
-		picture: "Music/artworks-000666585649-5a81y5-t500x500.jpg"    
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"    
+	        },
+		{
+		artist: "Nothing",
+		name: "Mute",
+		url: "Musics/muteSound.mp3",
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"    
 	}];
 	
 
