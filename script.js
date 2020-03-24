@@ -37,7 +37,14 @@ $(function()
 		name: "Mute",
 		url: "Musics/muteSound.mp3",
 		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"    
-	}];
+	        }
+		,
+		{
+		artist: "NGAN",
+		name: "Min_Data",
+		url: "Musics/min_data.mp3",
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"    
+	 }];
 	
 
     function playPause()
