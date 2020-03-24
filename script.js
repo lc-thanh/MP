@@ -27,17 +27,6 @@ $(function()
 		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
 	}];
 	
-	function shuffle(a) {
-		var j, x, i;
-		for (i = a.length - 1; i > 0; i--) {
-			j = Math.floor(Math.random() * (i + 1));
-			x = a[i];
-			a[i] = a[j];
-			a[j] = x;
-		}
-		return a;
-	}
-	songs = shuffle(songs);
 
     function playPause()
     {
