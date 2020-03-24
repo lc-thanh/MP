@@ -28,8 +28,8 @@ $(function()
 	        },
 		{
 		artist: "Test",
-		name: "Neu anh di",
-		url: "Musics/Neuanhdi.mp3",
+		name: "Nếu Anh Đi",
+		url: "Musics/NeuAnhDi.mp3",
 		picture: "Music/artworks-000666585649-5a81y5-t500x500.jpg"    
 	}];
 	
