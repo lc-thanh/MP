@@ -217,6 +217,18 @@ body
     overflow: hidden;
 }
 
+#album-layer {
+    position: absolute;
+    top: -40px;
+    width: 115px;
+    height: 200px;
+    bottom: -40px;
+    background-color: #fff;
+    opacity: 0.41;
+    z-index: 2;
+}
+
+
 #album-art.active
 {
     top: -60px;
