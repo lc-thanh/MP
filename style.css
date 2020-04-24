@@ -10,6 +10,18 @@ body
     background-color: #ffeff5;
 }
 
+#caption {
+	position: fixed;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	top: 10px;
+	right: 10px;
+	z-index: 2;
+}
+
 #app-cover
 {
     position: absolute;
@@ -45,7 +57,7 @@ body
     bottom: 0;
     left: 0;
     background-color: #fff;
-    opacity: 0.61;
+    opacity: 0.51;
     z-index: 2;
 }
 
@@ -65,8 +77,8 @@ body
     padding: 13px 22px 10px 184px;
     background-color: #fff7f7;
     border-radius: 15px 15px 0 0;
-    -webkit-transition: 0.3s ease top;
-    transition: 0.3s ease top;
+    -webkit-transition: 0.7s ease top;
+    transition: 0.7s ease top;
     z-index: 1;
 }
 
@@ -248,8 +260,8 @@ body
 #album-art.active img.active
 {
     z-index: 1;
-    -webkit-animation: rotateAlbumArt 3s linear 0s infinite forwards;
-            animation: rotateAlbumArt 3s linear 0s infinite forwards;
+    -webkit-animation: rotateAlbumArt 10s linear 0s infinite forwards;                           /*________tốc độ quay________*/
+            animation: rotateAlbumArt 10s linear 0s infinite forwards;
 }
 
 @-webkit-keyframes rotateAlbumArt
@@ -286,8 +298,8 @@ body
 
 #album-art img, #buffer-box
 {
-    -webkit-transition: 0.1s linear all;
-    transition: 0.1s linear all;
+    -webkit-transition: 0.3s linear all;
+    transition: 0.3s linear all;
 }
 
 #album-art.buffering img
