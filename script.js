@@ -21,23 +21,36 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "Don't press next 😊",
-		name: "Hello!",
-		url: "Musics/7s.mp3",
+		artist: "#1Song",
+		name: "Hôm Nay Em Cưới Rồi",
+		url: "Musics/hom_nay_em_cuoi_roi.mp3",
 		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
 	    },
 		{
-		artist: "Nothing",
-		name: "Listen it <3",
-		url: "Musics/Nhung_gi_anh_noi.mp3",
+		artist: "#2Song",
+		name: "Anh Từng Cố Gắng",
+		url: "Musics/anh_tung_co_gang.mp3",
 		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
 	    },
 	    {
-		artist: "End",
-		name: "Hết rồi :v",
-		url: "Musics/4s.mp3",
+		artist: "#3Song",
+		name: "Chẳng Thể Tìm Được Em",
+		url: "Musics/chang_the_tim_duoc_em.mp3",
 		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
-	}];
+	    },
+		{
+		artist: "#4Song",
+		name: "Có Chắc Chia Tay Là Sẽ Quên",
+		url: "Musics/co_chac_chia_tay_thi_se_quen.mp3",
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
+	    },
+		{
+		artist: "#5Song",
+		name: "Đường Ai Nấy Đi",
+		url: "Musics/duong_ai_nay_di.mp3",
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
+	    }
+		];
 	
 	
 
