@@ -49,6 +49,30 @@ $(function()
 		name: "Đường Ai Nấy Đi",
 		url: "Musics/duong_ai_nay_di.mp3",
 		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
+	    },
+		{
+		artist: "#6Song",
+		name: "Hạnh Phúc Bỏ Rơi Em",
+		url: "Musics/hanh_phuc_bo_roi_em.mp3",
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
+	    },
+		{
+		artist: "#7Song",
+		name: "Hẹn Yêu",
+		url: "Musics/hen_yeu.mp3",
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
+	    },
+		{
+		artist: "#8Song",
+		name: "Lời Nói Điêu Trên Môi Em",
+		url: "Musics/loi_noi_dieu_tren_moi_em.mp3",
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
+	    },
+		{
+		artist: "#9Song",
+		name: "Vài Giây Nữa Thôi",
+		url: "Musics/vai_giay_nua_thoi.mp3",
+		picture: "Musics/artworks-000666585649-5a81y5-t500x500.jpg"
 	    }
 		];
 	
