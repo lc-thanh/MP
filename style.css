@@ -22,6 +22,50 @@ body
 	z-index: 2;
 }
 
+#volumeControl {
+	position: fixed;
+	font-size: 15px;
+	color: gray;
+	text-decoration: none;
+	font-weight: 600;
+	font-family: Helvetica, Arial;
+	bottom: 7px;
+	right: 10px;
+	z-index:3;
+}
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 5px; /* Specified height */
+  background: #6A6968; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .7s; /* 0.2 seconds transition on hover */
+  transition: opacity .7s;
+}
+
+.slider:hover {
+  opacity: 1.2; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 18.5px; /* Set a specific slider handle width */
+  height: 18.5px; /* Slider handle height */
+  background: #FE8139; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 10px; /* Set a specific slider handle width */
+  height: 10px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
 #app-cover
 {
     position: absolute;
