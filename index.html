@@ -6,7 +6,18 @@
   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=0.5, minimum-scale=0.5, width=device-width" />
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
   <link rel="shortcut icon" type="image/png" href="./favicon.png" />
-
+  
+  <script>
+	var volumeslider;
+	function intializePlayer(){
+		volumeslider = document.getElementById("volumeslider");
+		volumeslider.addEventListener("change",setvolume,false);
+	}
+	window.onload = intializePlayer;
+	function setvolume(){
+	audio.volume = volumeslider.value / 100;
+	}
+  </script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -14,6 +25,12 @@
     
     <div id="app-cover">
 		<div id="caption">Thành KL</div>
+	        <section id="volumeControl">
+			<label>Volume</label>
+			<div>
+			<input id="volumeslider" class="slider" type="range" min="0" max="100" value="100" step="1">
+			</div>
+		</section>
 		<div id="bg-artwork"></div>
 		<div id="bg-layer"></div>
         <div id="player">
